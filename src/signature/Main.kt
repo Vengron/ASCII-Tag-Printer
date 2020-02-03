@@ -12,9 +12,9 @@ fun main() {
     scanner.close()
     val loader = FontLoader()
     val romanFont = loader.loadFont(
-            File("C:\\Users\\Vengron\\OneDrive\\Desktop\\roman.txt"))
+            File("roman.txt"))
     val mediumFont = loader.loadFont(
-            File("C:\\Users\\Vengron\\OneDrive\\Desktop\\medium.txt"))
+            File("medium.txt"))
     val converter = Converter()
     val printer = Printer()
     printer.printTable(converter.convert(name, romanFont),
